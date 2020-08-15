@@ -1,0 +1,276 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/oc.png);
+    margin: 80px auto;
+    padding: 0 30px 0 30px;
+    font-family: "arial", sans-serif;
+}
+
+header {
+    display: inline;
+}
+
+
+.container {
+    box-shadow: 1px 3px 3px 1px blue;
+    font-size: 25px;
+    padding: 30px;
+    background-image: url(../img/garut.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+    color: white;
+    position: relative;
+}
+
+.twiter {
+    width:200px;
+    height:200px;
+    background-image: url(../img/twit.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: -23px;
+    right: -30px;
+}
+
+header h1 {
+    color: #2E3440;
+    font-size: 50pt;
+    font-family: "Alisandra Demo";
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 1px#eaeaea;
+}
+
+header p {
+    color: #2E3440;
+    font-size: 18pt;
+    font-family: "Rubik 700";
+    font-weight: bold;
+    padding-left: 5px;
+    text-shadow: 2px 2px 1px grey;
+}
+
+
+
+
+
+nav li {
+    float: left;
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color:salmon;
+}
+
+nav a:hover {
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bold;
+    color: #eaeaea;
+}
+
+nav a:active {
+    font-weight: bold;
+    color: #5E81AC;
+}
+
+nav form {
+    float: right;
+    margin-right: 50px;
+}
+
+
+main {
+    overflow: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 3px 3px 1px blue;
+    background-color: white;
+    border-bottom: 5px solid #eaeaea;
+}
+
+main #darkModeButton {
+    margin: 10px;
+    border: 3px solid black;
+    position: relative;
+    left: 30%;
+    border-radius: 50px;
+    width: 40%;
+    background:lightskyblue;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.content {
+    float: left;
+    width: 75%;
+    padding: 5px;
+    background-color: rgb(229, 233, 240);
+    box-shadow: 1px 3px 3px 1px blue;
+}
+
+article {
+
+    overflow: auto;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+article img {
+    margin: 5px;
+    float: left;
+    width: 350px;
+}
+
+article h2 {
+    color: black;
+}
+
+.ost-inf {
+    font-size: 15px;
+    color: black;
+}
+
+.ost-inf a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.isi {
+    margin-left: 5px;
+    color: black;
+}
+
+.isi::first-letter {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+aside {
+    box-shadow: 3px 4px 4px 0 rgba(3, 3, 3, 0.377);
+    background-color: #eaeaea;
+    float: right;
+    width: 23%;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+
+aside figure img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100px;
+}
+
+aside p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+aside .deskripsi {
+    font-weight: normal;
+    margin-top: 10px;
+    text-align: justify;
+    color: black;
+}
+
+figure {
+    background-color: rgb(229, 233, 240);
+    padding: 10px;
+    width: auto;
+}
+
+aside figure p {
+    color: black;
+}
+
+.penulis {
+    background-color: white;
+    padding: 20px;
+}
+nav {
+    box-shadow: 1px 3px 3px 1px blue;
+    overflow: auto;
+    background-color: lightskyblue;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    border-top: 4px solid #eaeaea;
+}
+
+footer {
+
+   width: auto;
+   
+    background-color:#333 ;
+    color: #eaeaea;
+    padding: 10px 30px 30px 30px;
+    overflow: auto;
+}
+
+footer .copy {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width:680px) {
+    body {
+        padding: 0;
+    }
+
+    header {
+        margin: 0;
+    }
+
+    main {
+        padding: 1px;
+    }
+
+    .content {
+        padding: 1px;
+        width: auto;
+        float: none;
+    }
+
+    article {
+        padding: 2px;
+    }
+
+    article img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    aside {
+        width: auto;
+        float: none;
+    }
+
+    aside p {
+        font-size: 10px;
+    }
+
+    
+}

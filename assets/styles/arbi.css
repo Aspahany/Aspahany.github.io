@@ -1,0 +1,213 @@
+
+
+body{
+	font: 20px/28px arial,sans-serif;
+	background-color: #ffffff;
+	background-image: url(../img/stdio.png);
+	color: #333;
+	margin: auto;
+
+
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height:40px;
+}
+.container{
+	width: 990px;
+	margin: 80px auto;
+	background-color: #F0F8FF;
+	
+
+
+}
+.header{
+	padding: 30px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin: auto;
+}
+.header .judul{
+	font-size: 70px;
+	font-weight: bold;
+	box-shadow: blue;
+	padding: 10px
+}
+.header ul li{
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 15px;
+
+}
+.header a {
+	text-decoration: none;
+	color:salmon;
+}
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+
+}
+	
+}
+
+.main {
+	width: 600px;
+	padding: 20px; 
+	box-sizing: border-box;
+	float: left;
+
+}
+.main h2{
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+.main .penulis {
+	font-size: 13px;
+	margin-top:-18px;
+	padding: 10px;
+
+
+}
+.main .penulis a {
+	color: salmon;
+	text-decoration: none;
+}
+.main .penulis a:hover {
+	background-color: lightskyblue;
+	color: white;
+
+}
+.main p {
+
+	margin-bottom: 20px;
+	font-size:13px;
+
+}
+
+.it {
+	height:300px;
+	background-image: url(../img/sate.jpg);
+	background-size: cover;
+	background-position:0 -100;
+	
+
+}
+.A h3 {
+	padding:20px;
+	margin-bottom:2px;
+}
+.A p {
+	padding:20px;
+	font-size: 13px;
+	margin-bottom:5px;
+	margin-top: -0px;
+}
+
+.os {
+	height:300px;
+	background-image: url(../img/capture.png);
+	background-size: cover;
+	background-position:0 -150;
+}
+
+.B {
+	padding: 20px;
+}
+
+.ios {
+	height:300px;
+	background-image: url(../img/wisata.jpeg);
+	background-size: cover;
+	background-position:0 -150;
+}
+.C {
+	padding: 20px;
+
+}
+
+
+.io section {
+
+}
+
+.io th td {
+	text-align: center;
+}
+
+
+.it .A .h3 .p{
+
+   
+           width: 15em;
+           border: 1px solid #333;
+           box-shadow: 8px 8px 5px #444;
+           padding: 8px 12px;
+           background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+       
+}
+
+
+.shadowbox {
+           width:48em;
+           border: 1px solid #333;
+           box-shadow: 8px 8px 5px #444;
+           padding: 8px 12px;
+           background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+           margin: auto;
+       }
+
+
+
+.io  {
+	text-align:;
+}
+.io .table {
+	text-align: center;
+}
+.sidebar {
+	width: 200px;
+	float: right;	
+
+}
+
+
+.sidebar img {
+	width: 50;
+	height: 50;
+
+}
+.footer {
+	width: 966px;
+	background-color: #333;
+	padding:10px;
+	margin: auto;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
+
